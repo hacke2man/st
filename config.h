@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka Extended:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Iosevka Nerd Font Mono:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -106,14 +106,14 @@ static const char *colorname[] = {
 	"#a89984",//gray
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#7c6f64",
+	"#fb4934",
+	"#b8bb26",
+	"#fabd2f",
+	"#83a598",
+	"#d3869b",
+	"#8ec07c",
+	"#ebdbb2",
 
 	[255] = 0,
 
